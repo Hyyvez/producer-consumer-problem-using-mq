@@ -29,5 +29,5 @@ The producer and consumers are in different processes.
 The communication between the two processes is done using sockets.
 
 ### How
-先运行warehouse，然后再运行生产者和消费者（这两者不分顺序）  
+先运行 warehouse ，然后再运行 producer 和 consumer （这两者不分顺序）  
 First, run the Warehouse program, and then run the Producer and Consumer (the order of running these two doesn't matter).
