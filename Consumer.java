@@ -28,7 +28,7 @@ public class Consumer {
                         oos.writeObject(cMessage);
                         oos.flush();
 
-                        System.out.println("Consumer " + Thread.currentThread().getName() + " sent a request.");
+                        System.out.println("消费者 " + Thread.currentThread().getName() + " 发送了一个消费请求。");
 
                         // 等待一段时间
                         int interval = (int) (perSec * Math.random() * 2);

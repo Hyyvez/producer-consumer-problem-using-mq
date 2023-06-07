@@ -34,7 +34,7 @@ public class Producer {
         oos.writeObject(pMessage);
         oos.flush();
 
-        System.out.println("Produced a product, Product ID: " + productId);
+        System.out.println("生产了一个产品, 产品 ID：" + productId);
         productId++;
     }
 }
